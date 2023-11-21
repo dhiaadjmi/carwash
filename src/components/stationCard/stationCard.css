@@ -1,0 +1,45 @@
+.station-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+  position: relative;
+  justify-content: space-between;
+  border: 2px solid transparent; /* Add a transparent border initially */
+}
+
+.station-card:hover {
+  transform: scale(1.15);
+  border-color: #168aff; /* Change border color on hover to blue */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.cards-title {
+  color: #168aff;
+}
+.learn-more-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Height at 100% to center the content vertically */
+}
+
+.learn-more-button {
+  padding: 0.5rem 1.25rem;
+  background-color: #168aff;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+/* Animation on hover */
+.learn-more-button:hover {
+  background-color: #168aff;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}

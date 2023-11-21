@@ -1,0 +1,110 @@
+body {
+    font-family: "Reem Kufi", sans-serif; 
+  }
+.service-detail {
+    width: 80%;
+    margin: 100px auto 0 auto;
+    display: flex;
+    padding: 40px;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+  }
+  .service-detail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px; /* ou hauteur souhaitée */
+    position: relative;
+  }
+  
+  .service-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+  
+  .service-detail .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+  }
+  
+  .service-detail .service-title {
+    color: #168aff;
+    font-size: 3em;
+    margin-bottom: 25px;
+  }
+  
+  .service-detail .service-description {
+    color: #555;
+    font-size: 1.6em;
+  }
+  
+  .service-detail .queue-info,
+  .service-detail .time-info {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 1.6em;
+    color: #333;
+  }
+  
+  .service-detail .queue-info svg,
+  .service-detail .time-info svg {
+    background-color: #168aff;
+    color: white;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  .reservation-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+  }
+  
+  .reservation-button {
+    padding: 1rem 2.5rem;
+    background-color: #168aff;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .reservation-button svg {
+    margin-left: 0.75rem;
+    font-size: 1.5rem;
+  }
+  
+  .reservation-button:hover {
+    background-color: #168aff;
+  }
+  
+  .reservation-button:hover {
+    background-color: #168aff;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
